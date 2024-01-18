@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.example.EquationSolverTest
+-------------------------------------------------------------------------------
+Tests run: 91, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.148 s <<< FAILURE! - in com.example.EquationSolverTest
+testSolve_a_proche_de_0_positif__b_grand_positif__c_proche_de_0_negatif_(com.example.EquationSolverTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-2.0298250961214896>
+	at com.example.EquationSolverTest.testSolve_a_proche_de_0_positif__b_grand_positif__c_proche_de_0_negatif_(EquationSolverTest.java:769)
+
+testSolve_a_proche_de_0_negatif__b_negatif_grand__c_grand_positif_(com.example.EquationSolverTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<13.366911247372627>
+	at com.example.EquationSolverTest.testSolve_a_proche_de_0_negatif__b_negatif_grand__c_grand_positif_(EquationSolverTest.java:561)
+
+testSolve_a_normal_positif__b_grand_positif__c_negatif_grand_(com.example.EquationSolverTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<0.00481724739074707>
+	at com.example.EquationSolverTest.testSolve_a_normal_positif__b_grand_positif__c_negatif_grand_(EquationSolverTest.java:465)
+
+testSolve_a_proche_de_0_positif__b_negatif_grand__c_negatif_grand_(com.example.EquationSolverTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<2.286895751953125>
+	at com.example.EquationSolverTest.testSolve_a_proche_de_0_positif__b_negatif_grand__c_negatif_grand_(EquationSolverTest.java:433)
+
+testSolve_a_proche_de_0_negatif__b_grand_positif__c_proche_de_0_positif_(com.example.EquationSolverTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-0.04935905037238353>
+	at com.example.EquationSolverTest.testSolve_a_proche_de_0_negatif__b_grand_positif__c_proche_de_0_positif_(EquationSolverTest.java:1041)
+
+testSolve_a_normal_negatif__b_grand_positif__c_proche_de_0_positif_(com.example.EquationSolverTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<0.007990594804032192>
+	at com.example.EquationSolverTest.testSolve_a_normal_negatif__b_grand_positif__c_proche_de_0_positif_(EquationSolverTest.java:785)
+
+testSolve_a_proche_de_0_positif__b_grand_positif__c_normal_positif_(com.example.EquationSolverTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<0.9879461484517833>
+	at com.example.EquationSolverTest.testSolve_a_proche_de_0_positif__b_grand_positif__c_normal_positif_(EquationSolverTest.java:1009)
+
